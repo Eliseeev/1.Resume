@@ -8,56 +8,74 @@
     <meta name="description" content="Мой сайт, где впервые пробую силы в вёрстке и не только">
     <title>AlexEl</title>
 </head>
+
 <body>
+    <div class="container">
+    <link rel="stylesheet" href="index.css">
+    <div class="text">
+    <img src="5C2qi9tGHc4.jpg" width="250"; alt="Alex Eliseev" class="img">
+    <div class="text-info">
     <h1>Александр Елисеев</h1>
-    <img src="5C2qi9tGHc4.jpg" width="250" alt="Alex Eliseev">
-    <p>Всем шалом!Я <strong><em>Елисеев Александр</em></strong>.Мне 22 года.Учусь в <em> РГРТУ им. В.Ф. Уткина.</em>
-        Хочу быть <strong>высококласным программистом</strong>.</p>
-    
-    <p><strong>Я в соцсетях</strong></p>
-    <a href="https://vk.com/feed" target="_blank">VK</a>
-    |
-    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+        <p class= "normal"><strong><em>
+            Я Елисеев Александр.Учусь в РГРТУ им. В.Ф. Уткина.
+            Хочу быть высококласным создателем пользовательских интерфейсов.</em></strong></p>     
+        <h4 class="mn"><strong>Список социальных сетей:</strong></h4>
+        <a class="social" href="https://vk.com/feed" target="_blank">VK</a>
+         |
+        <a class="social" href="https://www.youtube.com/" target="_blank">YouTube</a>
+    </div>
+</div>
+    <div class="text_info1">
     <h2>Мои хобби</h2>
-    <ul>
+    <ol>
         <li>Чтение статей</li>
+        <br>
         <li>Просмотр видео</li> 
+        <br>
         <li>Игры на ПК</li> 
+        <br>
         <li>Прогулки по городу</li>
-    </ul>
-    <hr>
+    </ol>
+    </div>
+    <div class="text_info2">
     <h2>Опыт работы</h2>
-    <table>
-    <thead>
-        <tr>
-        <th>Название</th>
-        <th>Должность</th>
-        <th>Год</th>
-        </tr>
-    </thead>
+    <div class="card">
+    <table class="table">
     <tbody>
         <td>РГРТУ им. В.Ф. Уткина</td>
         <td>Студент</td>
-        <td>2018-сейчас</td>
+        <td>2018-2022</td>
     </tbody>
     <tbody>
         <td>УВЦ при РГРТУ им. Ф.В. Уткина	</td>
         <td>Студент</td>
-        <td>2020-сейчас</td>
+        <td>2020-2022</td>
     </tbody>
     </table>
-    <h2>Связаться со мной</h2>
-    <label for="text">Ваше имя</label>
-    <input type="text" id="text" placeholder="Введите имя">
-    <br>
-    <label for="email">Введите email:</label>
-    <input type="email" id="email" placeholder="Введите email">
-    <br>
-    <label for="message">Введите сообщение:</label>
-    <br>
-    <textarea type="text" cols="20" rows="6" placeholder="Введите сообщение:"></textarea>
-    <br>
-    <button type="submit">Отправить!</button>
+    </div>
+</div>
+     <form action="/" class="form">
+     <div class="text_info3">
+     <h2 class="lnk">Связаться со мной</h2>
 
+     <div class="wrapper">
+
+     <div class="formCommom">
+         <label for="text">Ваше имя:</label>
+         <input type="text" id="text" placeholder="Введите имя">
+     </div>
+     <div class="formCommom">
+         <label for="email">Ваш email:</label>
+         <input type="email" id="email" placeholder="Введите email">
+     </div>
+    </div>
+     <div class="formCommom">
+     <label for="message">Ваше сообщение:</label>
+     <textarea type="text" cols="20" rows="6" placeholder="Введите сообщение:"></textarea>
+     <button type="submit" class="btn">Отправить!</button>
+     </div>
+     </div>
+    </form>
+    </div>
 </body>
 </html>
